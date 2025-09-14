@@ -26,5 +26,18 @@
         </form>
         <h1>What is Client-Side Form Validation in HTML Forms, and What Are Some Examples?</h1>
         <p>When a user fills out a form on your website, it is important that they fill out all of the necessary informantion in the correct format. HTML form controls, like inputs, have a lot of built-in validation that you can use to check for invalid data. This will help ensure that the user fixes these mistakes before the information is submitted and procecced by the server.</p>
+        <form action="">
+            <label for="email">Email Address (Required field):</label>
+            <input
+                readonly 
+                type="email" 
+                name="email" 
+                id="email"
+                minlength="4"
+                maxlength="64"
+                value="example@email.com"
+                />
+            <button type="submit">Submit Form</button>
+        </form>
     </body>
 </html>
